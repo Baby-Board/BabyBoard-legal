@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Politique de confidentialité — Baby Board</title>
+<meta name="description" content="Politique de confidentialité de l'application Baby Board : données traitées, finalités, hébergement, conservation et suppression.">
+<style>
+  :root {
+    --ink: #20212b;
+    --muted: #686b73;
+    --paper: #fff9f1;
+    --card: #fffdfc;
+    --line: #eae6e4;
+    --accent: #b04a58;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #edecf5;
+      --muted: #aba6b8;
+      --paper: #1b1822;
+      --card: #211e28;
+      --line: #40384a;
+      --accent: #ff5f78;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font: 16px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; padding: 40px 20px 72px; }
+  header { border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 28px; }
+  h1 { font-size: 1.6rem; line-height: 1.25; margin: 0 0 8px; }
+  .updated { color: var(--muted); font-size: 0.9rem; margin: 0; }
+  .lede { margin: 0 0 28px; }
+  h2 {
+    font-size: 1.12rem;
+    margin: 32px 0 10px;
+    padding-top: 4px;
+  }
+  ul { padding-left: 22px; margin: 10px 0; }
+  li { margin: 5px 0; }
+  a { color: var(--accent); }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin: 28px 0 0;
+  }
+  footer {
+    margin-top: 40px;
+    padding-top: 18px;
+    border-top: 1px solid var(--line);
+    color: var(--muted);
+    font-size: 0.86rem;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Politique de confidentialité — Baby Board</h1>
+    <p class="updated">Dernière mise à jour : 14 septembre 2026</p>
+  </header>
+
+  <p class="lede">Baby Board permet aux parents de consigner et partager les informations quotidiennes de leur bébé.</p>
+
+  <h2>Données traitées</h2>
+  <ul>
+    <li>adresse e-mail et nom d'affichage des parents ;</li>
+    <li>prénom, date de naissance, sexe, taille, poids et photo facultative du bébé ;</li>
+    <li>événements de suivi : alimentation, couches, sommeil, soins, médicaments, exercices, rendez-vous et notes ;</li>
+    <li>objectifs, préférences de notifications et accès rapides ;</li>
+    <li>documents de santé ajoutés volontairement (carnet médical, vaccins, allergies, médecins) ;</li>
+    <li>rapports de plantage et de diagnostic technique (Firebase Crashlytics) ;</li>
+    <li>un jeton d'envoi de notifications par appareil (Firebase Cloud Messaging) ;</li>
+    <li>si vous nous écrivez depuis l'application : votre message, votre adresse e-mail, la version de l'app, le modèle de l'appareil et la version d'Android.</li>
+  </ul>
+
+  <h2>Finalités</h2>
+  <p>Les données servent uniquement à fournir le suivi, la synchronisation entre les parents, les rappels, l'export demandé par l'utilisateur, et à corriger les pannes de l'application. Elles ne sont pas vendues et ne sont pas utilisées à des fins publicitaires.</p>
+
+  <h2>Hébergement et sécurité</h2>
+  <p>Les données synchronisées sont hébergées dans un projet Supabase situé dans l'Union européenne, région Paris. Les accès sont protégés par authentification et Row Level Security. Chaque famille ne peut consulter que ses propres données. Les documents sont placés dans un espace privé. Tous les échanges entre l'application et le serveur sont chiffrés (HTTPS) ; les connexions non chiffrées sont bloquées par l'application elle-même.</p>
+
+  <h2>Conservation, export et suppression</h2>
+  <p>Les données restent conservées tant que le compte et l'espace familial existent. Depuis <strong>Plus &gt; Réglages &gt; Compte et données</strong>, chaque utilisateur peut à tout moment exporter ses données ou supprimer définitivement son compte, sa famille et l'ensemble des données associées. La procédure détaillée est décrite sur la page <a href="account-deletion.html">Supprimer son compte</a>. Une demande peut aussi être adressée directement au responsable de l'application (voir Contact ci-dessous).</p>
+
+  <h2>Gestion de la famille</h2>
+  <p>Le responsable de la famille (le parent qui l'a créée) peut retirer un autre parent depuis <strong>Plus &gt; Parents et partage</strong>. Le parent retiré perd immédiatement l'accès aux données de la famille ; ce qu'il avait déjà enregistré (événements, photos, souvenirs…) reste conservé pour le reste de la famille, comme n'importe quelle contribution passée.</p>
+
+  <h2>Enfants</h2>
+  <p>L'application est destinée aux parents ou représentants légaux. Elle n'est pas destinée à être utilisée directement par un enfant.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Avertissement médical</h2>
+    <p style="margin-bottom:0">Baby Board est un carnet de suivi et ne remplace en aucun cas un avis médical. En cas de doute sur la santé de votre enfant, consultez un professionnel de santé ou, en urgence, les services d'urgence de votre pays.</p>
+  </div>
+
+  <h2>Contact</h2>
+  <p>Pour toute question sur cette politique, sur vos données, ou pour signaler un problème, écrivez à <a href="mailto:babyboard@outlook.fr">babyboard@outlook.fr</a>.</p>
+
+  <footer>Baby Board — application de suivi du quotidien de bébé.</footer>
+</div>
+</body>
+</html>
